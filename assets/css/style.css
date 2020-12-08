@@ -1,22 +1,33 @@
+.body {
+  box-sizing: border-box;
+  min-width: 100vw;
+  min-height: 89vh;
+  background-position: center;
+  background-image: url("../image/cafe5.jpg");
+  overflow: hidden;
+}
 .header {
   display: flex;
-  min-height: 4vh;
+  min-height: 3vh;
   justify-content: space-between;
   background-color: #262626;
   color: white;
-  padding: 2.3em 3.5em;
+  padding: 2.2em 3.5em;
   font-family: sans-serif;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .logotype {
-  font-size: 1.5em;
+  font-size: 1.9em;
 }
 .nav-item {
   display: inline;
   font-weight: bold;
   font-size: 1.3em;
+}
+.nav-item + .nav-item {
+  padding-left: 12px;
 }
 
 .contact {
@@ -29,8 +40,4 @@
   text-decoration: none;
   padding: 8px 12px;
   color: white;
-}
-
-.src {
-  max-width: 100%;
 }
